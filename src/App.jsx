@@ -143,7 +143,7 @@ export default function App() {
               ZOTech Labs is a premium software agency providing complete, end-to-end solutions. From initial strategy and design to highly scalable web platforms, mobile apps, and secure cloud deployments.
             </motion.p>
             <motion.div variants={fadeUp} className="hero-buttons">
-              <a href="#contact" className="btn btn-primary">
+              <a href="mailto:contact@zotechlabs.com" className="btn btn-primary">
                 Discuss Your Project <ArrowRight size={20} />
               </a>
             </motion.div>
@@ -199,7 +199,7 @@ export default function App() {
                 We believe in writing clean code, building intuitive interfaces, and architecting scalable cloud solutions that solve real business problems. Whether you are a fast-growing startup or a Fortune 500 company, we treat your product as our own.
               </motion.p>
               <motion.div variants={fadeUp}>
-                <a href="#contact" className="btn btn-secondary">Get in touch with our team</a>
+                <a href="mailto:contact@zotechlabs.com" className="btn btn-secondary">Get in touch with our team</a>
               </motion.div>
             </motion.div>
 
