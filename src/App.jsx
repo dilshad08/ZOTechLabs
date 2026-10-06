@@ -478,62 +478,28 @@ export default function App() {
       {/* Footer (With Contact / Office Details added) */}
       <footer className="footer">
         <div className="container">
-          <div className="footer-grid">
-            <div className="footer-brand">
-              <div className="logo" style={{ color: 'var(--text-primary)' }}>
-                <div style={{ width: '24px', height: '24px', background: 'var(--accent-primary)', borderRadius: '6px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Zap size={14} color="white" />
-                </div>
-                ZOTech Labs
-              </div>
-              <p>
-                Premium software engineering agency dedicated to delivering exceptional end-to-end digital products and cloud solutions.
-              </p>
-            </div>
-
-            <div className="footer-col">
-              <h4>Navigation</h4>
-              <ul className="footer-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-col">
-              <h4>Expertise</h4>
-              <ul className="footer-links">
-                <li><a href="#">Web Platforms</a></li>
-                <li><a href="#">Mobile Applications</a></li>
-                <li><a href="#">Cloud Architecture</a></li>
-                <li><a href="#">Custom SaaS</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-col">
-              <h4>Office Details</h4>
-              <ul className="footer-links" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: 0 }}>
-                  <MapPin size={18} color="var(--accent-primary)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <span>
-                    Purnea, Bihar<br />
-                    India, 854301
-                  </span>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 0 }}>
-                  <Mail size={18} color="var(--accent-primary)" style={{ flexShrink: 0 }} />
-                  <a href="mailto:contact@zotechlabs.com">contact@zotechlabs.com</a>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 0 }}>
-                  <Phone size={18} color="var(--accent-primary)" style={{ flexShrink: 0 }} />
-                  <a href="tel:+9179922441166">+91 79922441166</a>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 0 }}>
-                  <Phone size={18} color="var(--accent-primary)" style={{ flexShrink: 0 }} />
-                  <a href="tel:+918210380847">+91 8210380847</a>
-                </li>
-              </ul>
-            </div>
+          <h2 className="gradient-text" style={{ textAlign: 'center', marginBottom: '2.5rem', fontSize: '2.25rem' }}>Our Contacts</h2>
+          
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem', marginBottom: '4rem' }}>
+            <a href="#" className="contact-pill glass-panel">
+              <div className="contact-icon-wrapper"><MapPin size={20} color="white" /></div>
+              <span>Purnea, Bihar - 854301, India</span>
+            </a>
+            
+            <a href="mailto:contact@zotechlabs.com" className="contact-pill glass-panel">
+              <div className="contact-icon-wrapper"><Mail size={20} color="white" /></div>
+              <span>contact@zotechlabs.com</span>
+            </a>
+            
+            <a href="tel:+9179922441166" className="contact-pill glass-panel">
+              <div className="contact-icon-wrapper"><Phone size={20} color="white" /></div>
+              <span>+91 79922441166</span>
+            </a>
+            
+            <a href="tel:+918210380847" className="contact-pill glass-panel">
+              <div className="contact-icon-wrapper"><Phone size={20} color="white" /></div>
+              <span>+91 8210380847</span>
+            </a>
           </div>
           <div className="footer-bottom">
             &copy; {new Date().getFullYear()} ZOTech Labs. All rights reserved.
