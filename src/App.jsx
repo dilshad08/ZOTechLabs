@@ -123,7 +123,6 @@ export default function App() {
         <a href="#process" onClick={() => setMobileMenuOpen(false)}>Process</a>
         <a href="#tech" onClick={() => setMobileMenuOpen(false)}>Technologies</a>
         <a href="#services" onClick={() => setMobileMenuOpen(false)}>Services</a>
-        <a href="#contact" className="btn btn-primary" onClick={() => setMobileMenuOpen(false)}>Contact Us</a>
       </div>
 
       {/* Hero Section */}
