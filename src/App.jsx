@@ -140,7 +140,7 @@ export default function App() {
               <span className="gradient-text-accent">Digital Future</span>
             </motion.h1>
             <motion.p variants={fadeUp} className="hero-desc">
-              ZOTech Labs is a premium software agency providing complete, end-to-end solutions. From initial strategy and design to highly scalable web platforms, mobile apps, and secure cloud deployments.
+              Elite software engineering. We transform bold visions into flawless, high-performance web, mobile, and cloud solutions at enterprise scale.
             </motion.p>
             <motion.div variants={fadeUp} className="hero-buttons">
               <a href="mailto:contact@zotechlabs.com" className="btn btn-primary">
@@ -193,10 +193,10 @@ export default function App() {
             >
               <motion.h2 variants={fadeUp} className="gradient-text" style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>About ZOTech Labs</motion.h2>
               <motion.p variants={fadeUp} style={{ fontSize: '1.125rem', marginBottom: '1.5rem', color: 'var(--text-secondary)' }}>
-                Founded by a team of elite software engineers and designers, ZOTech Labs was built on a single premise: delivering enterprise-grade digital products without the enterprise-level friction.
+                At ZOTech Labs, we engineer digital excellence. Founded by a specialized collective of elite developers and designers, we exist to deliver hyper-scalable, enterprise-grade products without the traditional enterprise-level friction.
               </motion.p>
               <motion.p variants={fadeUp} style={{ fontSize: '1.125rem', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-                We believe in writing clean code, building intuitive interfaces, and architecting scalable cloud solutions that solve real business problems. Whether you are a fast-growing startup or a Fortune 500 company, we treat your product as our own.
+                We write ruthlessly clean code, design profoundly intuitive interfaces, and architect robust cloud infrastructures that solve complex business challenges. From hyper-growth startups to Fortune 500 giants, we treat your product's success as our own—executing every detail with absolute precision.
               </motion.p>
               <motion.div variants={fadeUp}>
                 <a href="mailto:contact@zotechlabs.com" className="btn btn-secondary">Get in touch with our team</a>
