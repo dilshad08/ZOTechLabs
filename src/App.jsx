@@ -143,7 +143,7 @@ export default function App() {
               Elite software engineering. We transform bold visions into flawless, high-performance web, mobile, and cloud solutions at enterprise scale.
             </motion.p>
             <motion.div variants={fadeUp} className="hero-buttons">
-              <a href="mailto:contact@zotechlabs.com" className="btn btn-primary">
+              <a href="mailto:contact@zotechlabs.in" className="btn btn-primary">
                 Discuss Your Project <ArrowRight size={20} />
               </a>
             </motion.div>
@@ -199,7 +199,7 @@ export default function App() {
                 We write ruthlessly clean code, design profoundly intuitive interfaces, and architect robust cloud infrastructures that solve complex business challenges. From hyper-growth startups to Fortune 500 giants, we treat your product's success as our own—executing every detail with absolute precision.
               </motion.p>
               <motion.div variants={fadeUp}>
-                <a href="mailto:contact@zotechlabs.com" className="btn btn-secondary">Get in touch with our team</a>
+                <a href="mailto:contact@zotechlabs.in" className="btn btn-secondary">Get in touch with our team</a>
               </motion.div>
             </motion.div>
 
@@ -478,23 +478,23 @@ export default function App() {
       <footer className="footer">
         <div className="container">
           <h2 className="gradient-text" style={{ textAlign: 'center', marginBottom: '2.5rem', fontSize: '2.25rem' }}>Our Contacts</h2>
-          
+
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem', marginBottom: '4rem' }}>
             <a href="#" className="contact-pill glass-panel">
               <div className="contact-icon-wrapper"><MapPin size={20} color="white" /></div>
               <span>Purnea, Bihar - 854301, India</span>
             </a>
-            
-            <a href="mailto:contact@zotechlabs.com" className="contact-pill glass-panel">
+
+            <a href="mailto:contact@zotechlabs.in" className="contact-pill glass-panel">
               <div className="contact-icon-wrapper"><Mail size={20} color="white" /></div>
-              <span>contact@zotechlabs.com</span>
+              <span>contact@zotechlabs.in</span>
             </a>
-            
+
             <a href="tel:+9179922441166" className="contact-pill glass-panel">
               <div className="contact-icon-wrapper"><Phone size={20} color="white" /></div>
               <span>+91 79922441166</span>
             </a>
-            
+
             <a href="tel:+918210380847" className="contact-pill glass-panel">
               <div className="contact-icon-wrapper"><Phone size={20} color="white" /></div>
               <span>+91 8210380847</span>
